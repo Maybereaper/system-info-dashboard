@@ -1,35 +1,34 @@
-# System Info Dashboard
+# 🖥️ System Info Dashboard
 
-A simple terminal-based system information dashboard built with Python.  
-Displays CPU, memory, disk usage, and network interface info using `psutil` and `rich`.
+A lightweight Python tool that displays real-time system resource usage (CPU, memory, disk, and network interfaces) in a beautiful terminal table using the `rich` library.  
 
-## How to Run
+✅ Works on both **Linux** and **Windows**.
 
-1. Create a virtual environment (optional but recommended):
+---
 
-    ```bash
-    python3 -m venv env
-    source env/bin/activate  # Linux/macOS
-    .\env\Scripts\activate   # Windows
-    ```
+## 📸 Screenshot
 
-2. Install dependencies:
+<!-- Screenshot coming soon -->
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+---
 
-3. Run the script:
+## 🚀 Features
 
-    ```bash
-    python system_info.py
-    ```
+- Real-time CPU usage
+- RAM consumption
+- Disk usage
+- Active network interfaces
+- Colorful terminal display with Rich
 
-## Dependencies
+---
 
+## 📦 Requirements
+
+- Python 3.7+
 - `psutil`
 - `rich`
 
-## License
+Install with:
 
-MIT
+```bash
+pip install -r requirements.txt
